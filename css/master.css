@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  padding: 30px;
+}
+
+h1 {
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.book {
+  padding: 10px;
+  border-radius:
+}
+
+.author {
+  font-size: 14px;
+  padding-top: 10px;
+}

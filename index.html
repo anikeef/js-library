@@ -2,12 +2,24 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
     <title>Library</title>
   </head>
   <body>
     <h1>Library</h1>
-    <div class="book">
-      
+    <form name="book" method="get" onsubmit="addBookToLibrary(); return false;">
+      <input type="text" name="title">
+      <input type="text" name="author">
+      <input type="submit" name="add" value="Add book">
+    </form>
+    <div class="books">
+      <div class="book">
+        <h2>Hello world</h2>
+        <div class="author">
+          Dennis Ritchie
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
